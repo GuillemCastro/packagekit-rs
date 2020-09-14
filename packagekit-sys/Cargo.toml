@@ -1,5 +1,5 @@
 [package]
-name = "package-kit-glib-sys"
+name = "packagekit-sys"
 version = "0.0.1"
 links = "package_kit_glib"
 build = "build.rs"
@@ -51,15 +51,9 @@ name = "package_kit_glib_sys"
 
 [dependencies]
 libc = "0.2"
-
-[dependencies.glib-sys]
-git = "https://github.com/gtk-rs/sys"
-
-[dependencies.gobject-sys]
-git = "https://github.com/gtk-rs/sys"
-
-[dependencies.gio-sys]
-git = "https://github.com/gtk-rs/sys"
+gio-sys = "0.10.0"
+glib-sys = "0.10.0"
+gobject-sys = "0.10.0"
 
 [build-dependencies]
 system-deps = "1.3"
