@@ -58,6 +58,9 @@ git = "https://github.com/gtk-rs/sys"
 [dependencies.gobject-sys]
 git = "https://github.com/gtk-rs/sys"
 
+[dependencies.gio-sys]
+git = "https://github.com/gtk-rs/sys"
+
 [build-dependencies]
 system-deps = "1.3"
 

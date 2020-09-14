@@ -2,6 +2,7 @@
 external_libraries = [
    "GLib",
    "GObject",
+   "Gio",
 ]
 library = "PackageKitGlib"
 version = "1.0"
