@@ -6,6 +6,7 @@ build = "build.rs"
 authors = ["Guillem Castro <guillemcastro4@gmail.com>"]
 description = "PackageKit bindings and wrappers for Rust"
 license = "MIT"
+repository = "https://github.com/GuillemCastro/packagekit-rs"
 [package.metadata.system-deps.packagekit_glib2]
 name = "packagekit-glib2"
 version = "0.0"
