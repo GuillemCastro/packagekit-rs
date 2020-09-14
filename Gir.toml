@@ -1,0 +1,7 @@
+[options]
+external_libraries = [
+   "GLib",
+   "GObject",
+]
+library = "PackageKitGlib"
+version = "1.0"
