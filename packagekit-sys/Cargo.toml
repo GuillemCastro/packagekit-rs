@@ -3,6 +3,9 @@ name = "packagekit-sys"
 version = "0.0.1"
 links = "package_kit_glib"
 build = "build.rs"
+authors = ["Guillem Castro <guillemcastro4@gmail.com>"]
+description = "PackageKit bindings and wrappers for Rust"
+license = "MIT"
 [package.metadata.system-deps.packagekit_glib2]
 name = "packagekit-glib2"
 version = "0.0"
