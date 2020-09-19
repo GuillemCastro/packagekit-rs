@@ -1,6 +1,5 @@
 
 use packagekit_sys as packagekit;
-use glib_sys as glib;
 use std::{ptr, ffi::CString, error, fmt};
 use libc::{c_char};
 
@@ -22,7 +21,7 @@ fn string_from_raw(ptr: *const c_char) -> String {
         let c_str = CString::from_raw(ptr as *mut c_char);
         return match  c_str.to_str() {
             Ok(s) => s.to_owned(),
-            Err(e) => {
+            Err(_) => {
                 String::new()
             }
         };
